@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { setSearch } from "../redux/slices/SearchSlice";
+import { setSearch } from "../redux/Slices/SearchSlice";
 
 const Navbar = () => {
   const dispatch = useDispatch();
